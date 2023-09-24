@@ -5,12 +5,12 @@ WHITE = '\u001b[47m'
 END = '\u001b[0m'
 BLACK = '\u001b[40m'
 
-for i in range(6):
-    if i == 0 or i == 5:
+for i in range(5):
+    if i == 0 or i == 4:
         print(f'{RED}{"   " * 5}{END}')
-    if i == 1 or i == 4:
+    if i == 1 or i == 3:
         print(f'{RED}{"   " * 2}{WHITE}{"   "}{RED}{"   " * 2}{END}')
-    if i == 3:
+    if i == 2:
         print(f'{RED}{"   "}{WHITE}{"   " * 3}{RED}{"   "}{END}')
 
 
